@@ -15,8 +15,9 @@ function Explore() {
   return (
     <section className="bg-orange-50 py-20">
       <div className="max-w-7xl mx-auto px-6 text-center">
+        <h1 className="bg-red-500">My name is mehak arora</h1>
 
-   <span className="bg-orange-100 text-orange-600 px-5 py-2 rounded-full font-semibold">
+   <span className="bg-orange-600 text-orange-600 px-5 py-2 rounded-full font-semibold">
         Explore Restaurants
         </span>
 
