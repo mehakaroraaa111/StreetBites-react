@@ -147,12 +147,6 @@ function Contact() {
 
       </div>
 
-
-      
-      <footer className="text-center mt-10 text-gray-500">
-        © 2026 StreetBites. All rights reserved.
-      </footer>
-
     </div>
   );
 }
