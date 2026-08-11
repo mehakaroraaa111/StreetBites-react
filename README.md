@@ -1,222 +1,102 @@
-# 🍴 StreetBites
+# 🍔 StreetBites
 
-> **StreetBites is a restaurant discovery web application currently under development.**
+**StreetBites** is a modern restaurant discovery web application built with **React, Vite, and Tailwind CSS**. It helps users explore restaurants, browse categories, search for places, and view restaurant details through a clean and responsive interface.
 
-StreetBites is a modern restaurant discovery platform designed to help users explore restaurants, discover different cuisines, check ratings, and find places to eat.
-
-The project is currently focused on building and polishing the **frontend using React**. Backend functionality and database integration will be added in the next phase.
-
----
-
-## 🚧 Project Status
-
-**Currently in development 🛠️**
-
-### Completed
-
-* ✅ Responsive navigation bar
-* ✅ Home page
-* ✅ Hero section
-* ✅ Restaurant search UI
-* ✅ Food category section
-* ✅ Popular restaurants section
-* ✅ Explore page
-* ✅ Categories page
-* ✅ About page
-* ✅ Contact page
-* ✅ Login page
-* ✅ Signup page
-* ✅ Reusable React components
-* ✅ Restaurant data structure
-* ✅ Responsive UI development
-
-### In Progress
-
-* 🔄 UI/UX improvements
-* 🔄 Restaurant details page
-* 🔄 Search and filtering
-* 🔄 Improved responsive design
-* 🔄 Frontend polishing
-
-### Planned
-
-* ⏳ Node.js + Express backend
-* ⏳ Database integration
-* ⏳ User authentication
-* ⏳ Restaurant accounts
-* ⏳ Reviews and ratings
-* ⏳ Favorites
-* ⏳ Location-based restaurant discovery
-* ⏳ API integration
-
----
+🚀 **Version 1 is now live!**
 
 ## ✨ Features
 
-### 🏠 Restaurant Discovery
-
-Explore restaurants and discover different cuisines through a simple and modern interface.
-
-### 🔎 Search
-
-Search functionality will allow users to find restaurants based on their preferences.
-
-### 🍕 Categories
-
-Browse restaurants by food categories such as:
-
-* 🍕 Pizza
-* 🍔 Burger
-* ☕ Cafe
-* 🍜 Chinese
-* 🍛 Indian
-* 🍰 Desserts
-* 🥗 Healthy
-* 🌮 Mexican
-
-### ⭐ Restaurant Ratings
-
-Restaurant cards include rating information to help users discover popular places.
-
-### 📱 Responsive Design
-
-The website is being designed to work across:
-
-* 💻 Desktop
-* 📱 Mobile
-* 📲 Tablet
-
----
+* 🏠 Modern and responsive homepage
+* 🔍 Restaurant search functionality
+* 🍕 Category-based restaurant exploration
+* ⭐ Restaurant ratings and details
+* 📱 Responsive design for different screen sizes
+* 🔐 Login & Signup pages
+* 🧩 Reusable React components
+* 🧭 Client-side routing with React Router
+* 🎨 Modern UI built with Tailwind CSS
 
 ## 🛠️ Tech Stack
 
-### Frontend
-
 * **React.js**
-* **JavaScript**
-* **HTML5**
-* **CSS3**
-* **Tailwind CSS**
-* **React Router**
 * **Vite**
-
-### Backend
-
-> Backend development has not started yet.
-
-Planned:
-
-* Node.js
-* Express.js
-* MongoDB
-
----
+* **Tailwind CSS**
+* **JavaScript**
+* **React Router**
+* **Git & GitHub**
 
 ## 📂 Project Structure
 
 ```text
 StreetBites/
-│
-├── Frontend/
-│   ├── public/
-│   │
-│   ├── src/
-│   │   ├── assets/
-│   │   │   ├── logo.png
-│   │   │   └── logotwo.png
-│   │   │
-│   │   ├── components/
-│   │   │   ├── CategorySection.jsx
-│   │   │   ├── Footer.jsx
-│   │   │   ├── Hero.jsx
-│   │   │   ├── Navbar.jsx
-│   │   │   ├── PopularRestaurants.jsx
-│   │   │   └── SearchSection.jsx
-│   │   │
-│   │   ├── data/
-│   │   │   └── restaurants.js
-│   │   │
-│   │   ├── pages/
-│   │   │   ├── Home.jsx
-│   │   │   ├── Explore.jsx
-│   │   │   ├── Categories.jsx
-│   │   │   ├── About.jsx
-│   │   │   ├── Contact.jsx
-│   │   │   ├── Login.jsx
-│   │   │   └── Signup.jsx
-│   │   │
-│   │   ├── App.jsx
-│   │   ├── App.css
-│   │   ├── index.css
-│   │   └── main.jsx
-│   │
-│   ├── package.json
-│   └── vite.config.js
-│
-└── Backend/
-    └── (Coming soon)
+└── Frontend/
+    ├── public/
+    ├── src/
+    │   ├── assets/
+    │   ├── components/
+    │   ├── data/
+    │   ├── pages/
+    │   ├── App.jsx
+    │   └── App.css
+    ├── index.html
+    ├── package.json
+    └── vite.config.js
 ```
-
----
 
 ## 🚀 Getting Started
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/mehakaroraaa111/StreetBites-react.git
+git clone <your-github-repository-url>
 ```
 
-Go into the frontend directory:
+### 2. Navigate to the frontend folder
 
 ```bash
-cd StreetBites-react/Frontend
+cd StreetBites/Frontend
 ```
 
-Install dependencies:
+### 3. Install dependencies
 
 ```bash
 npm install
 ```
 
-Start the development server:
+### 4. Start the development server
 
 ```bash
 npm run dev
 ```
 
-The application will then be available on the local development server provided by Vite.
+The application will be available at the local URL provided by Vite.
 
----
+## 🌐 Live Demo
 
-## 🎯 Future Vision
+🔗 https://street-bites-react.vercel.app/
 
-StreetBites aims to become a complete restaurant discovery platform where users can:
+## 📸 Project Preview
 
-* Discover restaurants
-* Search for food
-* Explore cuisines
-* View restaurant details
-* Check ratings and reviews
-* Save favorite restaurants
-* Find restaurants near their location
-* Create an account
-* Interact with restaurants
+StreetBites V1 focuses on creating a simple, clean, and user-friendly restaurant discovery experience.
 
-Restaurant owners will eventually be able to create and manage their restaurant profiles as well.
+## 🔮 Future Improvements
 
----
+* Backend integration
+* User authentication
+* Database integration
+* Restaurant location/map integration
+* User reviews and ratings
+* Favorites/wishlist
+* Restaurant owner dashboard
+* Advanced filtering
+* Personalized restaurant recommendations
 
-## 👩‍💻 Developer
+## 👩‍💻 Author
 
 **Mehak Arora**
 
-
+Built with ❤️ using React.js.
 
 ---
 
-## 📌 Note
-
-StreetBites is an ongoing project. The frontend is currently being developed and refined before backend and database integration begins.
-
-More features will be added as development continues.
+⭐ If you like the project, consider giving the repository a star!
