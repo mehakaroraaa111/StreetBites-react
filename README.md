@@ -73,7 +73,7 @@ The application will be available at the local URL provided by Vite.
 
 ## 🌐 Live Demo
 
-🔗 https://street-bites-react.vercel.app/
+🔗 https://street-bites-react-dm50qeo5e-mehakmehak11.vercel.app/
 
 ## 📸 Project Preview
 
