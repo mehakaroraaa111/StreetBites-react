@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import logo from "../assets/logotwo.png";
 
-function Navbar() {
+function Footer() {
   return (
     <nav className="w-full bg-white shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
@@ -46,4 +46,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Footer;
